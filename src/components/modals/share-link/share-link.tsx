@@ -58,7 +58,7 @@ export function ShareLinkModal({ onClose, show }: ShareLinkModalProps) {
     <Modal show={show} onClose={onClose}>
       <ModalHeader>
         <div>
-          <ModalTitle>Share your sound selection!</ModalTitle>
+          <ModalTitle>分享你的混音</ModalTitle>
           <ModalDescription>
             Copy and send the following link to the person you want to share
             your selection with.

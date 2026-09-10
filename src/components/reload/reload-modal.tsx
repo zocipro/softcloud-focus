@@ -23,9 +23,9 @@ export function ReloadModal() {
     <Modal show={needRefresh} onClose={close}>
       <ModalHeader>
         <div>
-          <ModalTitle>New Content</ModalTitle>
+          <ModalTitle>有新版本</ModalTitle>
           <ModalDescription>
-            New content available, click on reload button to update.
+            新版本已准备好，刷新即可使用。
           </ModalDescription>
         </div>
       </ModalHeader>

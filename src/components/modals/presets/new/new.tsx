@@ -52,7 +52,7 @@ export function New() {
 
       {noSelected && (
         <p className={styles.noSelected}>
-          To make a preset, first select some sounds.
+          先选择几种声音，再保存为你的混音。
         </p>
       )}
     </div>

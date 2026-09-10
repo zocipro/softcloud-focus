@@ -19,11 +19,11 @@ export function List({ close }: ListProps) {
   return (
     <div className={styles.list}>
       <h3 className={styles.title}>
-        Your Presets {presets.length > 0 && `(${presets.length})`}
+        我的混音 {presets.length > 0 && `(${presets.length})`}
       </h3>
 
       {!presets.length && (
-        <p className={styles.empty}>You don&apos;t have any presets yet.</p>
+        <p className={styles.empty}>还没有保存的混音。</p>
       )}
 
       {presets.map(preset => (

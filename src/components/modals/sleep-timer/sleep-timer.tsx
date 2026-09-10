@@ -100,7 +100,7 @@ export function SleepTimerModal({ onClose, show }: SleepTimerModalProps) {
         <div>
           <ModalTitle>睡眠定时</ModalTitle>
           <ModalDescription>
-            Stop sounds after a certain amount of time.
+            到达设定时间后，声音会自动停止。
           </ModalDescription>
         </div>
       </ModalHeader>
