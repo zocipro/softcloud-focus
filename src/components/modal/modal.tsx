@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
-import { IoClose } from 'react-icons/io5/index';
+import { IoClose } from 'react-icons/io5';
 import FocusTrap from 'focus-trap-react';
 
 import { Portal } from '@/components/portal';

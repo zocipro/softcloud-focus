@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from 'react';
-import { BiPause, BiPlay } from 'react-icons/bi/index';
+import { BiPause, BiPlay } from 'react-icons/bi';
 import { useHotkeys } from 'react-hotkeys-hook';
 
 import { useSoundStore } from '@/stores/sound';
@@ -20,7 +20,7 @@ export function PlayButton() {
   const handleToggle = useCallback(() => {
     if (locked) return;
 
-    if (noSelected) return showSnackbar('Please first select a sound to play.');
+    if (noSelected) return showSnackbar('请先选择一种声音。');
 
     toggle();
   }, [showSnackbar, toggle, noSelected, locked]);
@@ -42,14 +42,14 @@ export function PlayButton() {
           <span aria-hidden="true">
             <BiPause />
           </span>{' '}
-          Pause
+          暂停
         </>
       ) : (
         <>
           <span aria-hidden="true">
             <BiPlay />
           </span>{' '}
-          Play
+          播放
         </>
       )}
     </button>

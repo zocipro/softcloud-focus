@@ -1,5 +1,5 @@
 import { useMemo, useEffect, useState } from 'react';
-import { IoCopyOutline, IoCheckmark } from 'react-icons/io5/index';
+import { IoCopyOutline, IoCheckmark } from 'react-icons/io5';
 
 import {
   Modal,

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { LuLaptop, LuMoon, LuSun } from 'react-icons/lu/index';
+import { LuLaptop, LuMoon, LuSun } from 'react-icons/lu';
 
 import { Item } from '../item';
 
@@ -51,19 +51,19 @@ export function Theme() {
       <Item
         active={theme === 'system'}
         icon={icons.system}
-        label="System theme"
+        label="跟随系统"
         onClick={() => selectTheme('system')}
       />
       <Item
         active={theme === 'light'}
         icon={icons.light}
-        label="Light theme"
+        label="浅色主题"
         onClick={() => selectTheme('light')}
       />
       <Item
         active={theme === 'dark'}
         icon={icons.dark}
-        label="Dark theme"
+        label="深色主题"
         onClick={() => selectTheme('dark')}
       />
     </>

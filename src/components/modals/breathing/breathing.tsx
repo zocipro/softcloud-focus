@@ -10,7 +10,7 @@ export function BreathingExerciseModal({ onClose, show }: TimerProps) {
   return (
     <Modal show={show} onClose={onClose}>
       <ModalHeader>
-        <ModalTitle>Breathing Exercise</ModalTitle>
+        <ModalTitle>呼吸练习</ModalTitle>
       </ModalHeader>
       <Exercise />
     </Modal>

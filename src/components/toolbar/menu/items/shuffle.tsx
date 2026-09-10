@@ -1,4 +1,4 @@
-import { BiShuffle } from 'react-icons/bi/index';
+import { BiShuffle } from 'react-icons/bi';
 
 import { useSoundStore } from '@/stores/sound';
 
@@ -12,7 +12,7 @@ export function Shuffle() {
     <Item
       disabled={locked}
       icon={<BiShuffle />}
-      label="Shuffle Sounds"
+      label="随机混音"
       onClick={shuffle}
     />
   );

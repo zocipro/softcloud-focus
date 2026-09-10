@@ -1,4 +1,4 @@
-import { IoIosMusicalNote } from 'react-icons/io/index';
+import { IoIosMusicalNote } from 'react-icons/io';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function Lofi({ open }: LofiProps) {
   return (
     <Item
       icon={<IoIosMusicalNote />}
-      label="Lofi Music Player"
+      label="轻音乐播放器"
       onClick={open}
     />
   );

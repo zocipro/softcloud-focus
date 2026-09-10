@@ -1,4 +1,4 @@
-import { IoMoonSharp } from 'react-icons/io5/index';
+import { IoMoonSharp } from 'react-icons/io5';
 
 import { useSleepTimerStore } from '@/stores/sleep-timer';
 import { Item } from '../item';
@@ -14,7 +14,7 @@ export function SleepTimer({ open }: SleepTimerProps) {
     <Item
       active={active}
       icon={<IoMoonSharp />}
-      label="Sleep Timer"
+      label="睡眠定时"
       shortcut="Shift + Alt + T"
       onClick={open}
     />

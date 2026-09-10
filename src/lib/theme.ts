@@ -24,7 +24,7 @@ export function applyTheme(theme: Theme) {
   );
   themeColor?.setAttribute(
     'content',
-    resolvedTheme === 'dark' ? '#18181b' : '#fafafa',
+    resolvedTheme === 'dark' ? '#122b40' : '#f7fbfe',
   );
 
   window.dispatchEvent(new CustomEvent('themechange'));

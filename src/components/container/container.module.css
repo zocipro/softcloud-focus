@@ -1,6 +1,6 @@
 .container {
-  width: 90%;
-  max-width: 760px;
+  width: min(1080px, calc(100% - 64px));
+  max-width: 1080px;
   margin: 0 auto;
 
   &.tight {
@@ -11,3 +11,5 @@
     max-width: 960px;
   }
 }
+
+@media (width <= 680px) { .container { width: calc(100% - 32px); } }

@@ -242,10 +242,10 @@ export function BinauralModal({ onClose, show }: BinauralProps) {
           disabled={isPlaying}
           onClick={startSound}
         >
-          Start
+          开始
         </ModalButton>
         <ModalButton fullWidth disabled={!isPlaying} onClick={stopSound}>
-          Stop
+          停止
         </ModalButton>
       </ModalActions>
     </Modal>

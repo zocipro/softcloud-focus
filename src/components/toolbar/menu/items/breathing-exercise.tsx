@@ -1,4 +1,4 @@
-import { IoMdFlower } from 'react-icons/io/index';
+import { IoMdFlower } from 'react-icons/io';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function BreathingExercise({ open }: BreathingExerciseProps) {
   return (
     <Item
       icon={<IoMdFlower />}
-      label="Breathing Exercise"
+      label="呼吸练习"
       shortcut="Shift + B"
       onClick={open}
     />

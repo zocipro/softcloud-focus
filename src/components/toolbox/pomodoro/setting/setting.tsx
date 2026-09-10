@@ -59,7 +59,7 @@ export function Setting({ onChange, onClose, show, times }: SettingProps) {
       <form className={styles.form} onSubmit={handleSubmit}>
         <Field
           id="pomodoro"
-          label="Pomodoro"
+          label="番茄钟"
           value={values.pomodoro}
           onChange={handleChange('pomodoro')}
         />
@@ -71,17 +71,17 @@ export function Setting({ onChange, onClose, show, times }: SettingProps) {
         />
         <Field
           id="long"
-          label="Long Break"
+          label="长休息"
           value={values.long}
           onChange={handleChange('long')}
         />
 
         <ModalActions>
           <ModalButton type="button" onClick={handleCancel}>
-            Cancel
+            取消
           </ModalButton>
           <ModalButton variant="primary" type="submit">
-            Save
+            保存
           </ModalButton>
         </ModalActions>
       </form>

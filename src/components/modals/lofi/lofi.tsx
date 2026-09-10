@@ -51,7 +51,7 @@ export function LofiModal({ onClose, show }: LofiProps) {
   return (
     <Modal persist show={show} onClose={onClose}>
       <ModalHeader>
-        <ModalTitle>Lofi Music Player</ModalTitle>
+        <ModalTitle>轻音乐播放器</ModalTitle>
       </ModalHeader>
 
       {!isAccepted ? (
@@ -64,7 +64,7 @@ export function LofiModal({ onClose, show }: LofiProps) {
           </p>
 
           <ModalActions>
-            <ModalButton onClick={onClose}>Cancel</ModalButton>
+            <ModalButton onClick={onClose}>取消</ModalButton>
             <ModalButton variant="primary" onClick={() => setIsAccepted(true)}>
               Continue
             </ModalButton>

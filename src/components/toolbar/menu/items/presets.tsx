@@ -1,4 +1,4 @@
-import { RiPlayListFill } from 'react-icons/ri/index';
+import { RiPlayListFill } from 'react-icons/ri';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function Presets({ open }: PresetsProps) {
   return (
     <Item
       icon={<RiPlayListFill />}
-      label="Your Presets"
+      label="我的混音"
       shortcut="Shift + Alt + P"
       onClick={open}
     />

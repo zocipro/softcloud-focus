@@ -7,9 +7,9 @@
   padding: 0;
   text-align: left;
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: 0;
+  border-radius: 16px;
   transition:
     color 180ms ease,
     background-color 180ms ease,
@@ -39,15 +39,9 @@
     font-size: var(--font-md);
     color: var(--color-foreground-subtler);
     background-color: transparent;
-    background-image: repeating-linear-gradient(
-      135deg,
-      transparent 0,
-      transparent 5px,
-      var(--color-border) 5px,
-      var(--color-border) 6px
-    );
+    background-image: none;
     border-right: 1px solid var(--color-border);
-    border-radius: 0;
+    border-radius: 16px 0 0 16px;
     transition:
       color 180ms ease,
       background-color 180ms ease,

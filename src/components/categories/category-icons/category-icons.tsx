@@ -17,11 +17,11 @@ export default function CategoryIcons() {
     <Container>
       <div className={styles.wrapper}>
         <div className={styles.header}>
-          <h2 className={styles.title}>Browse sounds</h2>
-          <p>Jump to any category.</p>
+          <h2 className={styles.title}>选择声音</h2>
+          <p>点击声音加入混音，也可以先选一个分类。</p>
         </div>
 
-        <nav aria-label="Sound categories" className={styles.categories}>
+        <nav aria-label="声音分类" className={styles.categories}>
           {categories.map(category => (
             <button
               className={styles.category}

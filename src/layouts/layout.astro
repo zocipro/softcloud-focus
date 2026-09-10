@@ -1,26 +1,26 @@
 ---
 import { pwaInfo } from 'virtual:pwa-info'; // eslint-disable-line
-import { Font } from 'astro:assets';
 
 import { Reload } from '@/components/reload';
 
 import { count } from '@/lib/sounds';
 
 import '@/styles/global.css';
+import '@/styles/softcloud.css';
 
 interface Props {
   description?: string;
   title?: string;
 }
 
-const title = Astro.props.title || 'Moodist: Ambient Sounds for Focus and Calm';
+const title = Astro.props.title || '软云专注 | SoftCloud';
 const description =
   Astro.props.description ||
-  `Moodist is a free and open-source ambient sound generator featuring ${count()} carefully curated sounds. Create your ideal atmosphere for relaxation, focus, or creativity with this versatile tool.`;
+  `软云专注提供 ${count()} 种环境声音，可自由混音，搭配番茄钟和睡眠定时器，陪你学习、工作和休息。`;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta content="width=device-width" name="viewport" />
@@ -43,13 +43,10 @@ const description =
         document.documentElement.style.colorScheme = theme;
         document
           .querySelector('meta[name="theme-color"]')
-          ?.setAttribute('content', theme === 'dark' ? '#18181b' : '#fafafa');
+          ?.setAttribute('content', theme === 'dark' ? '#122b40' : '#f7fbfe');
       })();
     </script>
-    <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
-    <Font cssVariable="--font-inter" preload={[{ weight: 400 }]} />
-    <Font cssVariable="--font-inter-tight" />
-    <Font cssVariable="--font-fraunces" preload />
+    <link href="/softcloud.png" rel="icon" type="image/png" />
 
     <title>{title}</title>
     <meta content={title} name="title" />
@@ -57,10 +54,10 @@ const description =
 
     <meta content={title} property="og:title" />
     <meta content={description} property="og:description" />
-    <meta content="Moodist" property="og:site_name" />
-    <meta content="https://moodist.app" property="og:url" />
+    <meta content="软云专注" property="og:site_name" />
+    <meta content="https://focus.zoci.pro" property="og:url" />
     <meta content="website" property="og:type" />
-    <meta content="https://moodist.app/og.png" property="og:image" />
+    <meta content="https://focus.zoci.pro/softcloud.png" property="og:image" />
 
     <meta content="summary_large_image" name="twitter:card" />
 

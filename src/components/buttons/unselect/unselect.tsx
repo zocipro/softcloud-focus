@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { BiUndo, BiTrash } from 'react-icons/bi/index';
+import { BiUndo, BiTrash } from 'react-icons/bi';
 import { AnimatePresence, motion } from 'motion/react';
 import type { Variants } from 'motion/react';
 import { useHotkeys } from 'react-hotkeys-hook';
@@ -58,16 +58,16 @@ export function UnselectButton() {
             <Tooltip
               content={
                 hasHistory
-                  ? 'Restore unselected sounds.'
-                  : 'Unselect all sounds.'
+                  ? '恢复刚刚清空的声音。'
+                  : '清空所有声音。'
               }
             >
               <button
                 disabled={noSelected && !hasHistory}
                 aria-label={
                   hasHistory
-                    ? 'Restore Unselected Sounds'
-                    : 'Unselect All Sounds'
+                    ? '恢复声音'
+                    : '清空声音'
                 }
                 className={cn(
                   styles.unselectButton,

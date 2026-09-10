@@ -24,13 +24,13 @@ export function SettingsModal({ onClose, show }: SettingsModalProps) {
     <Modal show={show} onClose={onClose}>
       <ModalHeader>
         <div>
-          <ModalTitle>Settings</ModalTitle>
+          <ModalTitle>设置</ModalTitle>
           <ModalDescription>Control global and alarm volumes.</ModalDescription>
         </div>
       </ModalHeader>
 
       <div className={styles.group}>
-        <p className={styles.label}>Global Volume</p>
+        <p className={styles.label}>总音量</p>
         <Slider
           max={100}
           min={0}
@@ -40,7 +40,7 @@ export function SettingsModal({ onClose, show }: SettingsModalProps) {
       </div>
 
       <div className={styles.group}>
-        <p className={styles.label}>Alarm Volume</p>
+        <p className={styles.label}>提醒音量</p>
         <Slider
           max={100}
           min={0}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BiUpArrowAlt } from 'react-icons/bi/index';
+import { BiUpArrowAlt } from 'react-icons/bi';
 import { motion } from 'motion/react';
 
 import { mix, fade, slideY } from '@/lib/motion';
@@ -32,7 +32,7 @@ export function ScrollToTop() {
   return (
     <motion.button
       animate={isVisible ? 'show' : 'hidden'}
-      aria-label="Scroll to top"
+      aria-label="返回顶部"
       className={styles.button}
       exit="hidden"
       initial="hidden"

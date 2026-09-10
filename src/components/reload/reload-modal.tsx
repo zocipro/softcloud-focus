@@ -31,7 +31,7 @@ export function ReloadModal() {
       </ModalHeader>
 
       <ModalActions>
-        <ModalButton onClick={close}>Close</ModalButton>
+        <ModalButton onClick={close}>关闭</ModalButton>
         <ModalButton
           variant="primary"
           onClick={() => updateServiceWorker(true)}

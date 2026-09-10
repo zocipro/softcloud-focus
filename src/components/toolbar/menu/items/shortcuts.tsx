@@ -1,4 +1,4 @@
-import { MdKeyboardCommandKey } from 'react-icons/md/index';
+import { MdKeyboardCommandKey } from 'react-icons/md';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function Shortcuts({ open }: ShortcutsProps) {
   return (
     <Item
       icon={<MdKeyboardCommandKey />}
-      label="Shortcuts"
+      label="快捷键"
       shortcut="Shift + H"
       onClick={open}
     />

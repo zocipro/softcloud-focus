@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
-import { FaUndo, FaPlay, FaPause } from 'react-icons/fa/index';
-import { IoMdSettings } from 'react-icons/io/index';
+import { FaUndo, FaPlay, FaPause } from 'react-icons/fa';
+import { IoMdSettings } from 'react-icons/io';
 
 import { Modal, ModalHeader, ModalTitle } from '@/components/modal';
 import { Button } from '../generics/button';
@@ -58,9 +58,9 @@ export function Pomodoro({ onClose, open, show }: PomodoroProps) {
 
   const tabs = useMemo(
     () => [
-      { id: 'pomodoro', label: 'Pomodoro' },
-      { id: 'short', label: 'Break' },
-      { id: 'long', label: 'Long Break' },
+      { id: 'pomodoro', label: '番茄钟' },
+      { id: 'short', label: '短休息' },
+      { id: 'long', label: '长休息' },
     ],
     [],
   );
@@ -150,13 +150,13 @@ export function Pomodoro({ onClose, open, show }: PomodoroProps) {
             <Button
               icon={<FaUndo />}
               smallIcon
-              tooltip="Restart"
+              tooltip="重新开始"
               onClick={restart}
             />
             <Button
               icon={running ? <FaPause /> : <FaPlay />}
               smallIcon
-              tooltip={running ? 'Pause' : 'Start'}
+              tooltip={running ? '暂停' : '开始'}
               onClick={toggleRunning}
             />
           </div>

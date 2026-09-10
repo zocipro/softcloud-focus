@@ -1,4 +1,4 @@
-import { MdTaskAlt } from 'react-icons/md/index';
+import { MdTaskAlt } from 'react-icons/md';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function Todo({ open }: TodoProps) {
   return (
     <Item
       icon={<MdTaskAlt />}
-      label="Todo Checklist"
+      label="待办清单"
       shortcut="Shift + T"
       onClick={open}
     />

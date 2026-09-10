@@ -13,7 +13,7 @@
       color: var(--color-foreground);
       background-color: var(--color-background);
       border: 1px solid var(--color-border);
-      border-radius: 0;
+      border-radius: 16px;
     }
 
     & span {
@@ -30,7 +30,7 @@
   height: 150px;
   background-color: var(--color-background);
   border: 1px solid var(--color-border);
-  border-radius: 0;
+  border-radius: 16px;
 
   & span {
     font-size: var(--font-xlg);
@@ -46,6 +46,6 @@
     color: var(--color-foreground-subtle);
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
-    border-radius: 0;
+    border-radius: 16px;
   }
 }

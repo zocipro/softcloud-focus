@@ -1,7 +1,7 @@
-import { BiSolidTrain, BiSolidPlaneAlt } from 'react-icons/bi/index';
-import { FaCarSide } from 'react-icons/fa/index';
-import { GiSubmarine, GiSailboat } from 'react-icons/gi/index';
-import { TbSailboat } from 'react-icons/tb/index';
+import { BiSolidTrain, BiSolidPlaneAlt } from 'react-icons/bi';
+import { FaCarSide } from 'react-icons/fa';
+import { GiSubmarine, GiSailboat } from 'react-icons/gi';
+import { TbSailboat } from 'react-icons/tb';
 
 import type { Category } from '../types';
 
@@ -14,39 +14,39 @@ export const transport: Category = {
     {
       icon: <BiSolidTrain />,
       id: 'train',
-      label: 'Train',
+      label: '火车',
       src: getAssetPath('/sounds/transport/train.mp3'),
     },
     {
       icon: <BiSolidTrain />,
       id: 'inside-a-train',
-      label: 'Inside a Train',
+      label: '火车车厢',
       src: getAssetPath('/sounds/transport/inside-a-train.mp3'),
     },
     {
       icon: <BiSolidPlaneAlt />,
       id: 'airplane',
-      label: 'Airplane',
+      label: '飞机',
       src: getAssetPath('/sounds/transport/airplane.mp3'),
     },
     {
       icon: <GiSubmarine />,
       id: 'submarine',
-      label: 'Submarine',
+      label: '潜水艇',
       src: getAssetPath('/sounds/transport/submarine.mp3'),
     },
     {
       icon: <GiSailboat />,
       id: 'sailboat',
-      label: 'Sailboat',
+      label: '帆船',
       src: getAssetPath('/sounds/transport/sailboat.mp3'),
     },
     {
       icon: <TbSailboat />,
       id: 'rowing-boat',
-      label: 'Rowing Boat',
+      label: '划船',
       src: getAssetPath('/sounds/transport/rowing-boat.mp3'),
     },
   ],
-  title: 'Transport',
+  title: '旅途',
 };

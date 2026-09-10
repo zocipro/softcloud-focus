@@ -1,4 +1,4 @@
-import { FiExternalLink } from 'react-icons/fi/index';
+import { FiExternalLink } from 'react-icons/fi';
 import { DropdownMenu } from 'radix-ui';
 
 import styles from './item.module.css';

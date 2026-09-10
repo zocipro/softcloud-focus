@@ -1,4 +1,4 @@
-import { IoSettingsSharp } from 'react-icons/io5/index';
+import { IoSettingsSharp } from 'react-icons/io5';
 
 import { Item } from '../item';
 
@@ -10,7 +10,7 @@ export function Settings({ open }: SettingsProps) {
   return (
     <Item
       icon={<IoSettingsSharp />}
-      label="Settings"
+      label="设置"
       shortcut="Shift + G"
       onClick={open}
     />

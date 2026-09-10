@@ -2,19 +2,15 @@
 import Layout from '@/layouts/layout.astro';
 
 import Hero from '@/components/hero.astro';
-import About from '@/components/about.astro';
-import Source from '@/components/source.astro';
 import Footer from '@/components/footer.astro';
 
 import { App } from '@/components/app';
 import CategoryIcons from '@/components/categories/category-icons/category-icons';
 ---
 
-<Layout title="Moodist: Ambient Sounds for Focus and Calm">
+<Layout title="软云专注 · 环境声音与专注计时 | SoftCloud">
   <Hero />
   <CategoryIcons client:load />
   <App client:load />
-  <About />
-  <Source />
   <Footer />
 </Layout>

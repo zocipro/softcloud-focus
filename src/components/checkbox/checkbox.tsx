@@ -1,5 +1,5 @@
 import { Checkbox as RadixCheckbox } from 'radix-ui';
-import { FaCheck } from 'react-icons/fa6/index';
+import { FaCheck } from 'react-icons/fa6';
 
 import styles from './checkbox.module.css';
 

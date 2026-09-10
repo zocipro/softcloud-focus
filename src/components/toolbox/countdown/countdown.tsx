@@ -82,7 +82,7 @@ export function Countdown({ onClose, show }: CountdownProps) {
     <Modal show={show} onClose={onClose}>
       <ModalHeader>
         <div>
-          <ModalTitle>Countdown Timer</ModalTitle>
+          <ModalTitle>倒计时</ModalTitle>
           <ModalDescription>Super simple countdown timer.</ModalDescription>
         </div>
       </ModalHeader>
@@ -137,7 +137,7 @@ export function Countdown({ onClose, show }: CountdownProps) {
 
           <ModalActions>
             <ModalButton variant="primary" onClick={handleStart}>
-              Start
+              开始
             </ModalButton>
           </ModalActions>
         </div>
@@ -152,7 +152,7 @@ export function Countdown({ onClose, show }: CountdownProps) {
             <ModalButton onClick={handleBack}>Back</ModalButton>
 
             <ModalButton variant="primary" onClick={toggleTimer}>
-              {isActive ? 'Pause' : 'Start'}
+              {isActive ? '暂停' : '开始'}
             </ModalButton>
           </ModalActions>
         </div>

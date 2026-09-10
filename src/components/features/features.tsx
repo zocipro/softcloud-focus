@@ -1,6 +1,6 @@
-import { BiMoney, BiUserCircle, BiLogoGithub } from 'react-icons/bi/index';
-import { BsSoundwave, BsStars } from 'react-icons/bs/index';
-import { RxMixerHorizontal } from 'react-icons/rx/index';
+import { BiMoney, BiUserCircle, BiLogoGithub } from 'react-icons/bi';
+import { BsSoundwave, BsStars } from 'react-icons/bs';
+import { RxMixerHorizontal } from 'react-icons/rx';
 
 import { Balancer } from 'react-wrap-balancer';
 
@@ -43,7 +43,7 @@ export function Features() {
       id: 'open-source',
       label: 'Open-Source',
       link: {
-        label: 'Source Code',
+        label: '开源代码',
         url: 'https://github.com/remvze/moodist',
       },
     },

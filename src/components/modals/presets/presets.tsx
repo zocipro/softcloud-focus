@@ -13,7 +13,7 @@ export function PresetsModal({ onClose, show }: PresetsModalProps) {
   return (
     <Modal show={show} onClose={onClose}>
       <ModalHeader>
-        <ModalTitle>Presets</ModalTitle>
+        <ModalTitle>我的混音</ModalTitle>
       </ModalHeader>
       <New />
       <div className={styles.divider} />

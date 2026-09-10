@@ -1,4 +1,4 @@
-import { MdNotes } from 'react-icons/md/index';
+import { MdNotes } from 'react-icons/md';
 
 import { Item } from '../item';
 
@@ -15,7 +15,7 @@ export function Notepad({ open }: NotepadProps) {
     <Item
       active={!!note.length}
       icon={<MdNotes />}
-      label="Notepad"
+      label="记事本"
       shortcut="Shift + N"
       onClick={open}
     />

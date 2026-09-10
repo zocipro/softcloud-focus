@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback } from 'react';
-import { IoMenu, IoClose } from 'react-icons/io5/index';
+import { IoMenu, IoClose } from 'react-icons/io5';
 import { DropdownMenu } from 'radix-ui';
 import { useHotkeys } from 'react-hotkeys-hook';
 import { AnimatePresence, motion } from 'motion/react';
@@ -7,7 +7,6 @@ import { AnimatePresence, motion } from 'motion/react';
 import {
   ShuffleItem,
   ShareItem,
-  DonateItem,
   SourceItem,
   SettingsItem,
   ThemeItem,
@@ -109,7 +108,7 @@ export function Menu() {
           onOpenChange={o => setIsOpen(o)}
         >
           <DropdownMenu.Trigger asChild>
-            <button aria-label="Menu" className={styles.menuButton}>
+            <button aria-label="工具箱" className={styles.menuButton}>
               {isOpen ? <IoClose /> : <IoMenu />}
             </button>
           </DropdownMenu.Trigger>
@@ -154,7 +153,6 @@ export function Menu() {
                     <Divider />
                     <ShortcutsItem open={() => open('shortcuts')} />
                     <Divider />
-                    <DonateItem />
                     <SourceItem />
                   </motion.div>
                 </DropdownMenu.Content>

@@ -1,4 +1,4 @@
-import { SiBuymeacoffee } from 'react-icons/si/index';
+import { SiBuymeacoffee } from 'react-icons/si';
 
 import { Item } from '../item';
 

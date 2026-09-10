@@ -1,4 +1,4 @@
-import { IoShareSocialSharp } from 'react-icons/io5/index';
+import { IoShareSocialSharp } from 'react-icons/io5';
 
 import { Item } from '../item';
 
@@ -15,7 +15,7 @@ export function Share({ open }: ShareProps) {
     <Item
       disabled={noSelected}
       icon={<IoShareSocialSharp />}
-      label="Share Sounds"
+      label="分享混音"
       shortcut="Shift + S"
       onClick={open}
     />

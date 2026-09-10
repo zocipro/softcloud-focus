@@ -105,7 +105,7 @@ export function SharedModal() {
         ))}
       </div>
       <ModalActions>
-        <ModalButton onClick={() => setIsOpen(false)}>Cancel</ModalButton>
+        <ModalButton onClick={() => setIsOpen(false)}>取消</ModalButton>
         <ModalButton variant="primary" onClick={handleOverride}>
           Override
         </ModalButton>

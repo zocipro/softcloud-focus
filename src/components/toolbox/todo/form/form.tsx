@@ -27,7 +27,7 @@ export function Form() {
           value={value}
           onChange={e => setValue(e.target.value)}
         />
-        <button type="submit">Add</button>
+        <button type="submit">添加</button>
       </div>
     </form>
   );

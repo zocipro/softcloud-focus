@@ -15,39 +15,39 @@ export function ShortcutsModal({ onClose, show }: ShortcutsModalProps) {
     },
     {
       keys: ['Shift', 'Alt', 'P'],
-      label: 'Presets',
+      label: '我的混音',
     },
     {
       keys: ['Shift', 'S'],
-      label: 'Share Sounds',
+      label: '分享混音',
     },
     {
       keys: ['Shift', 'Alt', 'T'],
-      label: 'Sleep Timer',
+      label: '睡眠定时',
     },
     {
       keys: ['Shift', 'C'],
-      label: 'Countdown Timer',
+      label: '倒计时',
     },
     {
       keys: ['Shift', 'P'],
-      label: 'Pomodoro',
+      label: '番茄钟',
     },
     {
       keys: ['Shift', 'N'],
-      label: 'Notepad',
+      label: '记事本',
     },
     {
       keys: ['Shift', 'G'],
-      label: 'Settings',
+      label: '设置',
     },
     {
       keys: ['Shift', 'T'],
-      label: 'Todo Checklist',
+      label: '待办清单',
     },
     {
       keys: ['Shift', 'B'],
-      label: 'Breathing Exercise',
+      label: '呼吸练习',
     },
     {
       keys: ['Shift', 'Space'],
@@ -55,7 +55,7 @@ export function ShortcutsModal({ onClose, show }: ShortcutsModalProps) {
     },
     {
       keys: ['Shift', 'R'],
-      label: 'Unselect All Sounds',
+      label: '清空声音',
     },
   ];
 
